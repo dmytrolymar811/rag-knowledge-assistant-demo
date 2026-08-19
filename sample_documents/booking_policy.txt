@@ -1,0 +1,5 @@
+Appointment Booking Policy
+
+Customers can book an appointment through the website booking form. A confirmation email is sent after the booking is accepted.
+
+Customers can reschedule through the booking link in their confirmation email up to 24 hours before the appointment. Later changes require a manual review by the support team.
