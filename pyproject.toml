@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-knowledge-assistant-demo"
+version = "0.1.0"
+description = "A local document retrieval demo with source-grounded results."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Dmytro Lymar"}]
+
+[project.scripts]
+rag-assistant = "rag_assistant.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
